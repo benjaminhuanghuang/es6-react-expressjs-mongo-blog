@@ -25,10 +25,11 @@ Since we’re using ES6+ syntax with ExpressJS over NodeJS, we need to make sure
 ## Server Middleware
 ```
     npm i helmet compression body-parser cors -S
-    npm i morgan -D
+    npm i morgan chalk -D
 ```
 - body-parser converts the incoming requests so that we can work with them in Express
 - Helmet provides basic security for our HTTP headers
 - compression decreases the size of the responses we sende back the client
 - cors protects us from shady cross-origin requests
 - morgan is a great, basic tool that let’s us monitor  HTTP activity in our console
+- Chalk allows us to specify the color of the console output
