@@ -12,7 +12,7 @@ Install express to create web server and development tools
 
 Since we’re using ES6+ syntax with ExpressJS over NodeJS, we need to make sure to transpile it down to ES5.
 1. Install Babel Packages
-```0
+```
     npm i babel-cli babel-preset-env -D
 ```
 2. Create a .babelrc file
