@@ -1,13 +1,15 @@
 // IMPORTS
 import express from 'express'
-import { configureServer, runServer } from './configs'
-import { configureRoutes } from './routes'
 
 // INITALIZE APP
 const app = express()
 // CONFIGS
+import {configureServer} from './configs';
 configureServer(app)
+
 // ROUTES
+import { configureRoutes } from './routes'
 configureRoutes(app)
+
 // RUN
 runServer(app)

@@ -1,28 +1,11 @@
 ## Reference 
 - Clean Code with React, ExpressJS, and MongoDB — Part 1
-https://itnext.io/clean-code-with-react-expressjs-and-mongodb-part-1-aa6b1a4aef82
+    - https://itnext.io/clean-code-with-react-expressjs-and-mongodb-part-1-aa6b1a4aef82
 
+- Redux-Style File Structure
+    - https://itnext.io/clean-code-with-react-expressjs-and-mongodb-part-2-89d20e684820
 
-
-## Server side ES6
-Install express to create web server and development tools
-```
-    npm i express nodemon -S
-```
-
-Since we’re using ES6+ syntax with ExpressJS over NodeJS, we need to make sure to transpile it down to ES5.
-1. Install Babel Packages
-```
-    npm i babel-cli babel-preset-env -D
-```
-2. Create a .babelrc file
-3. Create a script in our package.json.
-    babel-node was installed with babel-cli, it can ren ES6 in Node environment.
-```
-    "demo": "babel-node index.js"
-```
-
-## Server Middleware
+## Install server side libraries
 ```
     npm i helmet compression body-parser cors -S
     npm i morgan chalk -D

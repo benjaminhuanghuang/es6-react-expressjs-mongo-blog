@@ -1,5 +1,8 @@
-import { postsGetAll, userLogin } from '../database';
-
 export const publicRoutes = app => {
-  app.get('/api/get_all_posts', postsGetAll)
+  app.get('/', (req, res) => {
+    res.json({ message: 'Hello GET from ROOT' })
+  })
+  app.post('/', (req, res) => {
+    res.json({ message: 'Hello POST from ROOT' })
+  })
 }
