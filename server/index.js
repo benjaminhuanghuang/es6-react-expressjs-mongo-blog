@@ -12,4 +12,5 @@ import { configureRoutes } from './routes'
 configureRoutes(app)
 
 // RUN
+import { runServer } from './configs'
 runServer(app)
